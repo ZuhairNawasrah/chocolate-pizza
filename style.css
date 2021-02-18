@@ -12,7 +12,7 @@ header p {
     padding-left: 10px;
     color: #888888;
 }
-header p .span{
+header p span{
     font-weight: bolder;
     font-size: 25px;
     color: #444444;
