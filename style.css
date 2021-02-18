@@ -1,6 +1,10 @@
 *{
     box-sizing:border-box;
 }
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 header img:first-child{
     float: left;
 }
