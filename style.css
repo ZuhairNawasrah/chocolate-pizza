@@ -114,7 +114,7 @@ form #s6{
     
     padding-left: 10px;
     color: #888888;}
- #linee p span{
+ #linee p span:first-child{
     
         font-weight: bolder;
         font-size: 25px;
@@ -129,9 +129,13 @@ form #s6{
      color: #888888;
  }
  #bye{
-    font-size: 30px;
+    font-size: 20px;
     float: right;
     display: inline;
     color: white;
-    background-color: tomato;
+    background-color: brown;
+    padding: 10px;
+ }
+ footer img{
+     margin: 20px;
  }
