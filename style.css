@@ -1,0 +1,137 @@
+*{
+    box-sizing:border-box;
+}
+header img:first-child{
+    float: left;
+}
+header p {
+    float: left;
+    font-size:10px;
+    width: 200px;
+    margin: 0;
+    padding-left: 10px;
+    color: #888888;
+}
+header p .span{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #444444;
+    font-family: 'Yellowtail', cursive;
+}
+#sec {
+    float: right;
+    margin-top: 20px;
+}
+#sec img:first-child{
+    margin-right: 3px;
+}
+#sec img:nth-child(2){
+margin-left: 2px;
+}
+#sec img:nth-child(3){
+margin-left: 1px;
+}
+#sec img:nth-child(4){
+    margin-left: 0.5px;
+}
+#sec img:nth-last-child(2){
+    margin-left:15px ;
+}
+main {
+    clear: both;
+ padding-top: 30px;   
+}
+hr {
+    margin: 2px;
+}
+main >p{
+    margin-top: 40px;
+    color: #aaaaaa;
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p .span:first-child{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #333333;
+}
+main p .span:last-child{
+    float:right;
+}
+main section{
+    clear: both;
+    color: #777777;
+    text-align:justify;
+}
+main section img:first-child{
+    margin-top: 30px;
+    width: 100%;
+}
+form {
+    padding-top: 10px;
+}
+form section{
+    width: 100%;
+    float: left;
+   padding-top: 30px;
+   padding-left: 200px;
+   background-image: url(./images/list-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+form #s1{
+    padding-left: 400px;
+}
+form #s2{
+    padding-left: 367px;
+    
+}
+form #s3{
+    padding-left: 393px;
+}
+form #s4{
+    padding-left: 342px;
+}
+form #s5{
+    padding-left: 364px;
+}
+form #s6{
+    padding-left: 404px;
+}
+#linee {
+    padding-top: 30px;
+    clear: both;
+}
+
+#linee img{
+    float: left;
+    margin-top: 30px;
+}
+#linee p {
+    margin-top: 30px;
+    float: left;
+    width: 90%;
+    
+    padding-left: 10px;
+    color: #888888;}
+ #linee p span{
+    
+        font-weight: bolder;
+        font-size: 25px;
+        color: #444444;
+ }
+ 
+ footer {
+ clear: both;
+ padding-top: 50px;
+    text-align: center;
+     font-size:10px;
+     color: #888888;
+ }
+ #bye{
+    font-size: 30px;
+    float: right;
+    display: inline;
+    color: white;
+    background-color: tomato;
+ }
