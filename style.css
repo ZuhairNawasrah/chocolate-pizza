@@ -4,6 +4,8 @@
 body{
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 header img:first-child{
     float: left;
@@ -21,6 +23,10 @@ header p span{
     font-size: 25px;
     color: #444444;
     font-family: 'Yellowtail', cursive;
+}
+section p{
+    padding-top:10px;
+    padding-bottom:10px;
 }
 #sec {
     float: right;
@@ -77,8 +83,9 @@ form {
 form section{
     width: 100%;
     float: left;
-   padding-top: 30px;
-   padding-left: 200px;
+   padding-top: 20px;
+   padding-left: 150px;
+   padding-bottom: 20px;
    background-image: url(./images/list-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -114,7 +121,7 @@ form #s6{
 #linee p {
     margin-top: 30px;
     float: left;
-    width: 90%;
+    width: 94%;
     
     padding-left: 10px;
     color: #888888;}
